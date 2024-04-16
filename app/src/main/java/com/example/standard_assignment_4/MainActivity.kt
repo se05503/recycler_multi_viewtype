@@ -11,18 +11,6 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.standard_assignment_4.databinding.ActivityMainBinding
 
-/*
-[느낀점]
-- button 커스텀화 + svg 이미지 사용으로 수정하기
-- marginStart랑 marginLeft의 차이?
-- 뭔가 padding 보다 margin 주는게 더 나은 것 같음(각 뷰위젯마다 margin 주다가 갑자기 한 위젯 padding 주니까 거리 개념이 깨짐)
-- layout_width, height 설정 방식이 어려워보인다
-- 디버그랑 로그캣 차이?
-[트러블 슈팅 해결과정]
-1. Adapter에서 color값 가져오기 → 해당코드 참고
-2. 리사이클러뷰 마지막 레이아웃 짤려보임 → 에뮬레이터를 최신식으로 바꿔줘서 해결
- */
-
 class MainActivity : AppCompatActivity() {
 
     private val dataList = mutableListOf<Item>()
