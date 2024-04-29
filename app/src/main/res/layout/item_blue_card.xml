@@ -7,12 +7,12 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:backgroundTint="@color/sky_blue"
     android:layout_margin="5dp"
+    android:backgroundTint="@color/neon_blue"
     android:background="@drawable/border_layout">
 
     <TextView
-        android:id="@+id/tv_name"
+        android:id="@+id/tv_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -33,7 +33,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_username" />
 
     <TextView
         android:id="@+id/tv_title_balance"
@@ -43,11 +43,11 @@
         android:layout_marginBottom="8dp"
         android:text="Your Balance"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/tv_balance_num"
+        app:layout_constraintBottom_toTopOf="@+id/tv_balance"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/tv_balance_num"
+        android:id="@+id/tv_balance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -71,7 +71,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_expire_date"
+        android:id="@+id/tv_card_period"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -84,7 +84,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_card_type" />
 
     <TextView
-        android:id="@+id/tv_visa"
+        android:id="@+id/tv_card_manager"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
